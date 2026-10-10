@@ -1,0 +1,15 @@
+# Inputs and everything the pipeline writes stay out of version control
+# (no trailing slash, so symlinked data folders are ignored too).
+/data
+/models
+/references
+/results
+/figures
+/reports
+*.h5mu
+*.h5ad
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
